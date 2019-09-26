@@ -46,7 +46,12 @@
     </form>
   </div>
 </nav>
-    <h1>Hello, world!</h1>
+<h1><?php site_name(); ?></h1>
+
+<article>
+    <h2><?php page_title(); ?></h2>
+    <?php page_content(); ?>
+</article>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
