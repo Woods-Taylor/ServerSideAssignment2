@@ -19,6 +19,12 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
+    <nav class="menu">
+            <?php nav_menu(); ?>
+    </nav>       
+      <li class="nav-item active">
+      <nav class="menu">
+            <?php nav_menu(); ?> 
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
