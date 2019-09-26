@@ -14,7 +14,7 @@ function config($key = '')
         'nav_menu' => [
             '' => 'Home',
             'searchPage' => 'Search',
-            'image-gallery' => 'Image Gallery'
+            'image-gallery.phtml' => 'Image Gallery'
         ],
         'template_path' => 'template',
         'content_path' => 'content',
