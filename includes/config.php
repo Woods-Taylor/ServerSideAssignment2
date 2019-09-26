@@ -16,7 +16,7 @@ function config($key = '')
             'searchPage' => 'Search Page',
             'image-gallery' => 'Image Gallery'
         ],
-        'template_path' => 'template',
+        'template_path' => 'template/template.php',
         'content_path' => 'content',
         'version' => 'v1.0',
     ];
