@@ -13,10 +13,10 @@ function config($key = '')
         'site_url' => 'https://serversidephp.herokuapp.com/',
         'nav_menu' => [
             '' => 'Home',
-            'searchPage' => 'Search Page',
+            'searchPage' => 'Search',
             'image-gallery' => 'Image Gallery'
         ],
-        'template_path' => 'template.php',
+        'template_path' => 'template',
         'content_path' => 'content',
         'version' => 'v1.0',
     ];
