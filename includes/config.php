@@ -8,13 +8,13 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Taylors Go Website',
+        'name' => 'XKCD Pictures',
         'pretty_uri' => false,
         'site_url' => 'https://serversidephp.herokuapp.com/',
         'nav_menu' => [
             '' => 'Home',
             'random' => 'Random Comic',
-            'image-gallery' => 'Image Gallery'
+            'random' => 'Image Gallery'
         ],
         'template_path' => 'template',
         'content_path' => 'content',
