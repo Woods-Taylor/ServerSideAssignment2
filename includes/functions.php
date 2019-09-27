@@ -79,6 +79,7 @@ function getComic(){
     $output = curl_exec($handle);
     $response = json_decode($output, true);
     curl_close($handle);
+    echo $response[title].'<br>';
     echo '<img src=" '.$response['img'].' " alt="test"/>';
     /*dont change
     */
