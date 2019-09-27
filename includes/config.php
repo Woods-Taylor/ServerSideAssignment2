@@ -13,7 +13,7 @@ function config($key = '')
         'site_url' => 'https://serversidephp.herokuapp.com/',
         'nav_menu' => [
             '' => 'Home',
-            'random' => 'Search Page',
+            'random' => 'Random Comic',
             'image-gallery' => 'Image Gallery'
         ],
         'template_path' => 'template',
