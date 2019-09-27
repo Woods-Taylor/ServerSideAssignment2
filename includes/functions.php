@@ -65,7 +65,7 @@ function page_content()
     echo file_get_contents($path);
 }
 function getComic(){
-    $url = XKCDURL;
+    $url = "https://xkcd.com";
     /**dont change
     */
     $handle = curl_init();
