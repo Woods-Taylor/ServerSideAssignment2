@@ -60,9 +60,9 @@ function page_content()
     $page = isset($_GET['page']) ? $_GET['page'] : 'home';
     $path = getcwd() . '/' . config('content_path') . '/' . $page . '.php';
     if (! file_exists($path)) {
-        $path = getcwd() . '/' . config('content_path') . '/404.phtml';
+        $path = getcwd() . '/' . config('content_path') . '/404.php';
     }
-    echo file_get_contents($path);
+    require config('content_path'). '/' . $page . '.php';
 }
 function getComic(){
     $url = "https://xkcd.com/info.0.json";
