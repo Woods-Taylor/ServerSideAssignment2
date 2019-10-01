@@ -51,6 +51,7 @@
 <article>
     <h2><?php page_title(); ?></h2>
     <?php page_content(); ?>
+    
 </article>
 
     <!-- Optional JavaScript -->

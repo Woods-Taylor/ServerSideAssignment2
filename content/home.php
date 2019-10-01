@@ -1,3 +1,3 @@
-
-<?php page_content(); ?>
+<article>
 <?php getComic(); ?>
+</article>
