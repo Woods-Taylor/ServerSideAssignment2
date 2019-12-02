@@ -85,6 +85,26 @@ function getComic(){
     */
     }
 
+function getRandomComic(){
+  $url = 'https://xkcd.com/'.$random.'/info.0.json';
+
+  $handle = curl_init();
+  curl_setopt($handle, CURLOPT_URL, $url);
+  curl_setopt_array($handle,
+  array(
+  CURLOPT_URL => $url,
+  CURLOPT_RETURNTRANSFER => true
+  )
+  );
+  $output = curl_exec($handle);
+  $response = json_decode($output, true);
+  curl_close($handle);
+  echo $response[title].'<br>';
+  echo '<img src=" '.$response['img'].' " alt="test"/>';
+
+
+}
+
 /**
  * Starts everything and displays the template.
  */
