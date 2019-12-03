@@ -86,8 +86,8 @@ function getComic(){
     }
 
 function getRandomComic(){
+  $random = rand(1,2100);
   $url = 'https://xkcd.com/'.$random.'/info.0.json';
-
   $handle = curl_init();
   curl_setopt($handle, CURLOPT_URL, $url);
   curl_setopt_array($handle,
