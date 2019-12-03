@@ -9,7 +9,6 @@ function echoComic(){
  }
 </script>
 
-<?PHP
 <div>
   <button onclick="echoComic()">Random Comic</button>
 </div>
