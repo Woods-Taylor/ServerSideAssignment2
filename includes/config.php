@@ -14,7 +14,7 @@ function config($key = '')
         'nav_menu' => [
             '' => 'Home',
             'random' => 'random',
-            'random' => 'Image Gallery'
+            'home' => 'homepage'
         ],
         'template_path' => 'template',
         'content_path' => 'content',
